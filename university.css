@@ -87,7 +87,7 @@ nav{
         display: block;
     }
     .nav-links ul li a{
-        font-size: 16px;
+        font-size: 18px;
     }
     .nav-links  {
         position: absolute;
@@ -104,7 +104,7 @@ nav{
         color: aliceblue;
         display: block;
         font-size: 25px;
-        padding: 10px;
+        padding: 8px;
     }
     .nav-links ul{
         padding: 30px;
@@ -351,4 +351,136 @@ h1{
     width: 80%;
     text-align: center;
 }
+/* services */
+.sub2-header{
+    height: 50vh;
+    width: 100%;
+    background-image: url(img/friend-gc263af2f8_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 5%;
+}
+.sub2-header h1{
+    font-size: 50px;
+    padding-top: 70px;
+}
+.services{
+    width: 80%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-radius: 25px;
+    margin: auto;
+    margin-bottom: 40px;
+    background: rgba(253, 183, 5, 0.5);
+}
+.services-col{
+    flex-basis: 48%;
+    padding: 30px 30px;
+    margin: auto;
+    text-align: center;
+}
+.services-col img{
+    width: 100%;
+    border-radius: 15px;
+    box-sizing: border-box;
+    transition: 1s;
+}
+.services-col img:hover{
+    box-shadow: 0 0 40px 0px rgba(10, 66, 112, 0.8);
+}
+.services-col h2{
+    font-size: 40px;
+    margin: 5px;
+    color: rgb(63, 51, 51);
+    text-align: center;
+}
+.services-col p{
+    font-size: 18px;
+}
+/* course7 */
+.sub3-header{
+    height: 50vh;
+    width: 100%;
+    background-image: url(img/people-g649138297_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 60px;
+}
+.sub3-header h1{
+    font-size: 40px;
+    padding-top: 80px;
+}
+.table-box{
+    padding-left: 100px;
+    margin-bottom: 40px;
+    margin-top: -20px;
+    width: 80%;
+}
+.table-row{
+    width: 80%;
+    background: transparent;
+    margin: 10px auto;
+    display: table;
+    font-family: sans-serif;
+    padding: 12px 0;
+    border-radius: 5px;
+    color: black;
+    box-shadow: 0 4px 5px 0 rgba(26, 26, 204, 0.3);
+
+}
+.table-cell{
+    width: 30%;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-size:25px;
+    padding: 5px;
+    border-right: 2px solid rgb(34, 34, 37);
+}
+.course7 h1{
+    text-align: center;
+    color: rgb(16, 17, 17);
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.course8 h1{
+    text-align: center;
+    color: rgb(16, 17, 17);
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.course9 h1{
+    text-align: center;
+    color: rgb(16, 17, 17);
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+#table-head{
+    background: rgb(73, 73, 202);
+    color: aliceblue;
+}
+@media(max-width:700px){
+    .table-cell{
+        font-size: 15px;
+    }
+    .table-box{
+        padding-left: 40px;
+    }
+    .course7 h1{
+        font-size: 20px;
+    }
+    .course8 h1{
+        font-size: 20px;
+    }
+    .course9 h1{
+        font-size: 20px;
+    }
+}
+
+
+
 
